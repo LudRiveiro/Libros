@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Perfil</title>
-    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/estilos.css">
 </head>
 <body>
     <header class="contenedor__nav">
@@ -25,7 +26,26 @@
             
         </nav>
     </header>
-    <main class="contenedor__main">
+    <main>
+        <div class="container">
+            <h2>Iniciar sesión</h2>
+            <form action="#">
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" placeholder="Ingrese email" name="email">
+                </div>
+                <div class="form-group">
+                    <label for="password">Contraseña:</label>
+                    <input type="password" class="form-control" id="password" placeholder="Ingrese contraseña" name="password">
+                </div>
+                <button type="submit" class="btn btn-default">
+                    Ingresar
+                </button>
+            </form>
+        </div>
+        <div class="conteiner">
+            <a href="registro.html">Registrarse</a>
+        </div>
         <article>
             <div>Imagen de perfil</div>
             <br>
@@ -62,5 +82,6 @@
 
 
 </body>
+<script src="./js/bootstrap.min.js"></script>
 <script src="https://kit.fontawesome.com/7dc9cf74b3.js" crossorigin="anonymous"></script>
 </html>
