@@ -1,90 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/estilos.css">
+</head>
+<body>
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Inicio</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-        <link rel="stylesheet" href="./css/estilos.css">
-    </head>
-    <body>
-    
-        <header class="contenedor__nav">
-    
-            <h1 class="header__logo" ><img src="./img/LOGO.png" alt="Logo libros"></h1>
-            <nav class="">
-              <div class="header__nav--background dropdown">
-                <a class="btn btn-secondary  header__nav--bkg" href="index.html" role="button" id="MenuLink" data-bs-toggle="" aria-expanded="false">
-                  Inicio
+    <header>
+        <!-- Navegador mobile -->
+        <div class="header__mobile sticky">
+            <a href="index.html"><i class="fas fa-home"></i></a>
+            <a href="libros.html"><i class="fas fa-book"></i></a>
+            <a href="ranking.html"><i class="fas fa-fire-alt"></i></a>
+            <i class="fas fa-search"></i>
+            <a href="perfil.html"><i class="fas fa-user-circle"></i></a>
+
+        </div>
+        <!-- Navegador tablet -->
+        <nav class="header__tablet">
+            <div class=" dropdown">
+                <a class="btn btn-secondary  header__tablet--bkg" href="index.html" role="button" id="MenuLink" data-bs-toggle="" aria-expanded="false">
+                    Inicio
                 </a>
-                <a class="btn btn-secondary dropdown-toggle header__nav--bkg" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-                  Libros
+                <a class="btn btn-secondary dropdown-toggle header__tablet--bkg" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                    Libros
                 </a>
-              
-                <ul class="dropdown-menu header__nav--bkg" aria-labelledby="dropdownMenuLink">
-                  <li><a class="dropdown-item header__nav--bkg" href="accion.html">Acción</a></li>
-                  <li><a class="dropdown-item header__nav--bkg" href="romance.html">Romance</a></li>
-                  <li><a class="dropdown-item header__nav--bkg" href="terror.html">Terror</a></li>
+            
+                <ul class="dropdown-menu header__tablet--bkg2" aria-labelledby="dropdownMenuLink">
+                    <li><a class="dropdown-item header__tablet--bkg2" href="accion.html">Acción</a></li>
+                    <li><a class="dropdown-item header__tablet--bkg2" href="romance.html">Romance</a></li>
+                    <li><a class="dropdown-item header__tablet--bkg2" href="terror.html">Terror</a></li>
                 </ul>
-                <a class="btn btn-secondary dropdown-toggle header__nav--bkg" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-                  Rankings
+                <a class="btn btn-secondary dropdown-toggle header__tablet--bkg" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                    Rankings
                 </a>
-              
-                <ul class="dropdown-menu header__nav--bkg" aria-labelledby="dropdownMenuLink">
-                  <li><a class="dropdown-item header__nav--bkg" href="topaccion.html">Top Acción</a></li>
-                  <li><a class="dropdown-item header__nav--bkg" href="topromance.html">Top Romance</a></li>
-                  <li><a class="dropdown-item header__nav--bkg" href="topterror.html">Top Terror</a></li>
+            
+                <ul class="dropdown-menu header__tablet--bkg2" aria-labelledby="dropdownMenuLink">
+                    <li><a class="dropdown-item header__tablet--bkg2" href="topaccion.html">Top Acción</a></li>
+                    <li><a class="dropdown-item header__tablet--bkg2" href="topromance.html">Top Romance</a></li>
+                    <li><a class="dropdown-item header__tablet--bkg2" href="topterror.html">Top Terror</a></li>
                 </ul>
-              </div>
-              <a href="index.html"><img src="./img/LOGO.png" alt="Logo libros"></a>
-                  <i class="fas fa-search"></i>
-                  <a class="header__icon" href="perfil.html"><i class="fas fa-user-circle"></i></a>
-            </nav>
-        </header>
-    <main class="contenedor__main">
-        <article> 
-            <h2>Top Romance</h2>
-            <table>
-                <tr>
-                    <td><img src="/img/portadas/romance/afterlove.jpg" alt="afterlove"></td>
-                    <td><img src="/img/portadas/romance/tusimplementetu.jpg" alt="tusimplementetu"></td>
-                    <td><img src="/img/portadas/romance/the temple.jpg" alt="thetemple"></td>
-                    <td><img src="/img/portadas/romance/secret love.jpg" alt="secretlove"></td>
-                </tr>
-                <tr class="lib">
-                    <td>AfterLove </td>
-                    <td>Tu simplemente tu</td>
-                    <td>The temple</td>
-                    <td>Secret love</td>
-                </tr>
+            </div>
+            <a href="index.html"><img src="./img/LOGO.png" alt="Logo libros"></a>
+            <div class="header__tablet--iconos">
+                <div>
+                    <input type="text" placeholder="Busqueda">
+                    <i class="fas fa-search"></i>
+                </div>
+                <a class="header__icon" href="perfil.html"><i class="fas fa-user-circle"></i></a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <a class="titulo" href="topromance.html">Top Romance</a>
+            
+        <div class="conteiner recom__libros">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th><img src="img/portadas/romance/afterlove.jpg" alt="afterlove"></th>
+                        <th><img src="img/portadas/romance/the temple.jpg" alt="thetemple"></th>
+                        <th><img src="img/portadas/romance/loquepasoanoche.jpg" alt="loquepasoanoche"></th>
+                        <th><img src="img/portadas/romance/secret love.jpg" alt="secretlove"></th>
+                    </tr>
+                    <tr class="recom__libros--texto">
+                        <th>Afterlove</th>
+                        <th>The Temple</th>
+                        <th>Lo que paso anoche</th>
+                        <th>Secret love</th>
+                    </tr>
+                </thead>
             </table>
-        </article>
+        </div>
     </main>
-    
     <footer>
+    
         <!--De izquierda a derecha, Boton "Home", iconos de redes sociales que redireccionana a las mismas de Facebook, Instagram, Tiktok, Twitter y Youtube, luego cuatro botones verticales en H4 Contacto y luego en H5 "Trabaja con nosotros", "Comercio" y "Ayuda"-->
-        
-        <div class="footer__icon" > <!--iconos-->
+
+    <div class="contenedor__footer">
+        <div class="contenedor__footer--2 footer__icon"> 
             <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a> 
             <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
             <a href="https://www.tiktok.com/"><i class="fab fa-tiktok"></i></a>
             <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
             <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
         </div>
+        <div class="footer__icon"><a href="index.html"><i class="fas fa-home"></i></a></div>
+        <div class="ayuda"><a href="contacto.html">¿Necesitas ayuda?</a></div>
+    </div>
+    <div class="footer__tablet">
+        <div class="footer__tablet--two footer__icon"> 
+            <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a> 
+            <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.tiktok.com/"><i class="fab fa-tiktok"></i></a>
+            <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+        </div>
+        <div class="footer__icon"><a href="index.html"><i class="fas fa-home"></i></a></div>
         
-        <div class="footer__home"> <a href="index.html"><img src="/img/LOGO.png" alt="LOGO"></a></div>
         <div class="footer__contacto" > <a href="contacto.html">Contacto</a>
             <div>Trabaja con nosotros</div>
             <div>Comercio</div>
             <div>Ayuda</div>
         </div>
-    
-    </footer>
-    
-    
-    </body>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/7dc9cf74b3.js" crossorigin="anonymous"></script>
-    </html>
+    </div>
+
+
+
+</footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/7dc9cf74b3.js" crossorigin="anonymous"></script>
+</html>
