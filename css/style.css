@@ -1,0 +1,96 @@
+/* Variables */
+/* poner "--" en medio en la hoja de estilo*/
+.header__tablet {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  height: 100%; }
+
+.header__tablet .bkg {
+  background-color: #e9eaea; }
+
+.header__tablet .bkg :hover {
+  background-color: #cc9fa2;
+  border-color: #cc9fa2;
+  color: #fff; }
+
+.header__tablet .bkg :focus {
+  background-color: #cc9fa2;
+  color: #fff; }
+
+.header__tablet .bkg2 {
+  background-color: #cc9fa2;
+  color: #fff; }
+
+.footer__tablet {
+  background-color: #cc9fa2;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -moz-box-align: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  color: #e9eaea; }
+
+.footer__tablet .two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -moz-box-align: center;
+  -ms-flex-line-pack: center;
+  align-content: center; }
+
+/* PC */
+.contenedor__eventos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-item-align: center;
+  align-self: center; }
+
+.eventos {
+  width: 62.6%;
+  height: 100%; }
+
+.calendario {
+  width: 200%;
+  height: 100%; }
+
+/*# sourceMappingURL=style.css.map */

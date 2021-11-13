@@ -1,19 +1,32 @@
 {
-  "name": "uwu",
+  "name": "proyectolibros",
   "version": "1.0.0",
-  "description": "",
+  "description": "Un sitio web para los amantes de la lectura digital, encontraran libros de diferentes tematicas y tambien podrán publicar los propios",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch scss -o css"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/LudRiveiro/Libros.git"
   },
-  "author": "",
+  "author": "LudRiveiro",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/LudRiveiro/Libros/issues"
   },
-  "homepage": "https://github.com/LudRiveiro/Libros#readme"
+  "homepage": "https://github.com/LudRiveiro/Libros#readme",
+  "keywords": [
+    "LIBROS",
+    "NOVELAS",
+    "LITERATURA",
+    "LECTURA",
+    "ROMANCE",
+    "TERROR",
+    "ACCION"
+  ],
+  "dependencies": {
+    "node-sass": "^6.0.1"
+  }
 }

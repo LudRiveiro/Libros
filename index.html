@@ -7,6 +7,9 @@
     <title>Inicio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="css/estilos.css">
+    <meta name="description" content="Un sitio web para los amantes de la lectura digital, encontraran libros de diferentes tematicas y tambien podrán publicar los propios">
+    <meta name="keywords"  content="LIBROS, NOVELAS, LITERATURA, LECTURA, ROMANCE, TERROR, ACCION">
+
 </head>
 <body>
 
@@ -20,6 +23,7 @@
             <a href="perfil.html"><i class="fas fa-user-circle"></i></a>
 
         </div>
+
         <!-- Navegador tablet -->
         <nav class="header__tablet">
             <div class=" dropdown">
@@ -45,6 +49,7 @@
                     <li><a class="dropdown-item header__tablet--bkg2" href="topterror.html">Top Terror</a></li>
                 </ul>
             </div>
+            
             <a href="index.html"><img src="img/LOGO.png" alt="Logo libros"></a>
             <div class="header__tablet--iconos">
                 <div>
@@ -54,10 +59,13 @@
                 <a class="header__icon" href="perfil.html"><i class="fas fa-user-circle"></i></a>
             </div>
         </nav>
+        <h1 class="recom__libros">Proyecto Libros</h1>
     </header>
     <main>
         <div class="recom__mobile">
-            <h2 class="titulo">Recomendado</h2>
+            <div class="container">
+                <div class="col-xs-12 col-md-6 col-lg-3"><a class="titulo" href="ranking.html">Recomendado</a> </div>
+            </div>
             <div id="carouselExampleCaptions" class="carousel slide ca" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -66,23 +74,23 @@
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="img/carrousel/thetemple.png" class="d-block w-100" alt="...">
+                        <img src="img/carrousel/thetemple2.jpg" class="d-block w-100" alt="thetemple">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>The temple</h5>
+                        <h5></h5>
                         <p></p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="img/carrousel/fuegoysangre.png" class="d-block w-100" alt="...">
+                    <img src="img/carrousel/fuegoysangre2.jpg" class="d-block w-100" alt="fuegoysangre">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>Fuego y sangre</h5>
+                        <h5></h5>
                         <p></p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="img/carrousel/muertesuubita.png" class="d-block w-100" alt="...">
+                    <img src="img/carrousel/muertesubita2.jpg" class="d-block w-100" alt="muertesubita">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>Muerte subita</h5>
+                        <h5></h5>
                         <p></p>
                     </div>
                 </div>
@@ -97,62 +105,89 @@
                 </button>
                 </div>
             </div>
-            <div class="conteiner recom__libros">
-                <table class="table">
-                    <thead>
-                        <tr>
-                            <th><img src="img/portadas/romance/afterlove.jpg" alt="afterlove"></th>
-                            <th><img src="img/portadas/romance/secret love.jpg" alt="secretlove"></th>
-                            <th><img src="img/portadas/terror/lacabaña.jpg" alt="lacabaña"></th>
-                            <th><img src="img/portadas/accion/bella.jpg" alt="bella"></th>
-                        </tr>
-                        <tr class="recom__libros--texto">
-                            <th>Afterlove</th>
-                            <th>Secret Love</th>
-                            <th>La cabaña</th>
-                            <th>Bella</th>
-                        </tr>
-                    </thead>
-                </table>
+            <div class="container recom__libros">
+                <div class="row">
+                    <div class="col-xs-12 col-md-6 col-lg-3"><img src="img/portadas/romance/afterlove.jpg" alt="afterlove">Afterlove</div>
+                    <div class="col-xs-12 col-md-6 col-lg-3"><img src="img/portadas/romance/secret love.jpg" alt="secretlove">Secret love</div>
+                    <div class="col-xs-12 col-md-6 col-lg-3"><img src="img/portadas/terror/lacabaña.jpg" alt="lacabaña">La cabaña</div>
+                    <div class="col-xs-12 col-md-6 col-lg-3"><img src="img/portadas/accion/bella.jpg" alt="bella">Bella</div>
+                </div>
             </div>
         </div>
     </main>
-    <section class="conteiner">
-        <h2 class="titulo">Subscripción</h2>
-        <table class="table tabla__sub">
-            <thead>
-                <tr>
-                    <th>Paquete gratis</th>
-                    <th>Paquete de $100</th>
-                    <th>Paquete de $200</th>
-                </tr>
+    <section class="container ">
+        <article>
+            <div class="padding tabla__2">
+                <div class="titulo">Subscripción</div>
+                <div class="padding">
+                    <div class="col-xs-12 col-md-3 col-lg-4 tabla__sub">Paquete gratis</div>
+                    <div class="col-xs-12 col-md-3 col-lg-4">Acceso a capítulos limitados</div>
+                    <div class="col-xs-12 col-md-3 col-lg-4">Acceso limitado a la libreria</div>
                 
-            </thead>
-            <tbody>
-                <tr>
-                    <td scope="row">No subscripción</td>
-                    <td>Subscripción básica</td>
-                    <td>Subscripción premium</td>
-                </tr>
-                <tr>
-                    <td scope="row">Acceso a capítulos limitados</td>
-                    <td>Lecturas limitadas por día</td>
-                    <td>Lecturas ilimitadas</td>
-                </tr>
-                <tr>
-                    <td scope="row">Acceso limitado a la libreria</td>
-                    <td>Acceso completo a la libreria</td>
-                    <td>Acceso completo a la libreria</td>
-                </tr>
-            </tbody>
-        </table>
-        <div>
-
-            <div><h2 class="titulo">Eventos</h2></div>
+                </div>
+                <div class="padding">
+                    <div class="col-xs-12 col-md-3 col-lg-4 tabla__sub">Paquete de $100</div>
+                    <div class="col-xs-12 col-md-3 col-lg-4">Lecturas limitadas por día</div>
+                    <div class="col-xs-12 col-md-3 col-lg-4">Acceso completo a la libreria</div>
+                
+                </div>
+                <div class="padding">
+                    <div class="col-xs-12 col-md-3 col-lg-4 tabla__sub">Paquete de $200</div>
+                    <div class="col-xs-12 col-md-3 col-lg-4">Lecturas ilimitadas</div>
+                    <div class="col-xs-12 col-md-3 col-lg-4">Acceso completo a la libreria</div>
+                
+                </div>
+            </div>
+            <div class="tabla">
+                <div class="container">
+                    <h2 class="titulo">Subscripción</h2>
+                    <table class="table ">
+                        <thead>
+                            <tr class="tabla__sub">
+                                <th>Paquete gratis</th>
+                                <th>Paquete de $100</th>
+                                <th>Paquete de $200</th>
+                            </tr>
+                            
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td scope="row">No subscripción</td>
+                                <td>Subscripción básica</td>
+                                <td>Subscripción premium</td>
+                            </tr>
+                            <tr>
+                                <td scope="row">Acceso a capítulos limitados</td>
+                                <td>Lecturas limitadas por día</td>
+                                <td>Lecturas ilimitadas</td>
+                            </tr>
+                            <tr>
+                                <td scope="row">Acceso limitado a la libreria</td>
+                                <td>Acceso completo a la libreria</td>
+                                <td>Acceso completo a la libreria</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                <div>
+            </div>
+        </article>
+        
+        <div class="container">
+            <div class="col-xs-12 col-md-6 col-lg-3 titulo">Eventos</div>
+        </div>
+            <div class="container">
+                <div class="col-12">
+                    <div class="col-xs-12 col-md-6 col-lg-6 texto"></div>
+                    <div class="col-xs-12 col-md-6 col-lg-6 texto"></div>
+                    <div class="col-xs-12 col-md-6 col-lg-6"></div>
+                    
+                </div>
+                
+            </div>
             <div class="contenedor__eventos">
                 <div class="eventos">
-                    <div class="texto"> 10/12 Entrevista a la autora de AfterLove</div>
-                    <div class="texto2"> 22/12 En vivo en Instagram de naufragiodelibros</div>
+                    <div class="texto">10/12 Entrevista a la autora de AfterLove </div>
+                    <div class="texto2">22/12 En vivo en Instagram de naufragiodelibros </div>
                 </div>
                 <div>
                     <div class="calendario">
