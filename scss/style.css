@@ -192,7 +192,7 @@ body {
   .calendario ol {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (1fr)[7];
+    -ms-grid-columns: 1fr (7);
         grid-template-columns: repeat(7, 1fr);
     list-style: none;
     padding: 0;
@@ -206,7 +206,7 @@ body {
   .calendario ul {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (1fr)[7];
+    -ms-grid-columns: 1fr (7);
         grid-template-columns: repeat(7, 1fr);
     list-style: none;
     text-align: right;
@@ -489,7 +489,7 @@ body {
   .calendario ol {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (1fr)[7];
+    -ms-grid-columns: 1fr (7);
         grid-template-columns: repeat(7, 1fr);
     list-style: none;
     padding: 0;
@@ -503,7 +503,7 @@ body {
   .calendario ul {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (1fr)[7];
+    -ms-grid-columns: 1fr (7);
         grid-template-columns: repeat(7, 1fr);
     list-style: none;
     text-align: right;
@@ -523,7 +523,7 @@ body {
     width: 125px;
     height: 165px;
   }
-}
+
 
 .header__tablet {
   display: -webkit-box;
@@ -626,5 +626,5 @@ body {
 .calendario {
   width: 200%;
   height: 100%;
-}
+}}
 /*# sourceMappingURL=style.css.map */
